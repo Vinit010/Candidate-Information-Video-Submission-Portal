@@ -1,0 +1,11 @@
+/* review specific */
+.review-page {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: calc(100vh - 100px);
+  background: rgba(245,245,250,0.6);
+}
+
+.card { border-radius: 12px; }

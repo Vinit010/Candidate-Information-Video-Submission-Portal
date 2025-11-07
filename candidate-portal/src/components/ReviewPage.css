@@ -1,0 +1,44 @@
+.review-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #f9f9ff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.info-section p {
+  background: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+}
+
+.file-section h3 {
+  margin-top: 20px;
+}
+
+.resume-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #4a90e2;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.submit-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #218838;
+}

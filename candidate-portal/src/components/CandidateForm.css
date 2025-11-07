@@ -1,0 +1,45 @@
+
+/* ======== CandidateForm.css ======== */
+.page-wrapper {
+  height: 100vh;
+  width: 1580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1920&q=80")
+    no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+.form-box {
+  background: rgba(255, 255, 255, 0.93);
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.form-box:hover {
+  transform: scale(1.02);
+}
+
+.form-title {
+  text-align: center;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}

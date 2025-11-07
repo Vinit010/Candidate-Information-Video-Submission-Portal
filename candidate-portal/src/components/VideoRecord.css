@@ -1,0 +1,152 @@
+/* 🌟 Container styling */
+.video-record-container {
+  max-width: 750px;
+  margin: 60px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.video-record-container:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* 🎥 Heading */
+.video-record-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.video-record-subtitle {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+/* 🎬 Video Preview */
+.video-preview {
+  width: 100%;
+  max-height: 380px;
+  border-radius: 15px;
+  background: #000;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ⏱ Timer */
+.timer-box {
+  display: inline-block;
+  background: #eef6ff;
+  color: #007bff;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+/* 🎛️ Button group */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+/* 🟢 Buttons */
+.btn {
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-start {
+  background: linear-gradient(135deg, #00b4d8, #0077b6);
+}
+
+.btn-start:hover {
+  background: linear-gradient(135deg, #0077b6, #023e8a);
+  transform: translateY(-2px);
+}
+
+.btn-stop {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+.btn-stop:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  transform: translateY(-2px);
+}
+
+.btn-submit {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+}
+
+.btn-submit:hover {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  transform: translateY(-2px);
+}
+
+/* 📂 Upload section */
+.upload-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.upload-label {
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="file"] {
+  border: 2px dashed #007bff;
+  padding: 12px;
+  width: 70%;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #f8f9fa;
+  transition: 0.3s;
+}
+
+input[type="file"]:hover {
+  background: #e7f1ff;
+  border-color: #0056b3;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 600px) {
+  .video-record-container {
+    padding: 20px;
+  }
+
+  .video-record-title {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  input[type="file"] {
+    width: 90%;
+  }
+}
