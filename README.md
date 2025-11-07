@@ -55,8 +55,10 @@ Copy code
 cd backend
 npm start
 Start frontend:
-bash
+bash<img width="1876" height="853" alt="Screenshot 2025-11-07 172731" src="https://github.com/user-attachments/assets/d0f974cc-a4ac-4f24-a6c6-5bbc3dc603b4" />
+
 Copy code
 cd ../candidate-portal
 npm start
-<img width="1876" height="853" alt="image" src="https://github.com/user-attachments/assets/80431a29-5aca-4e40-8b18-c720c23a23f3" />
+
+![Uploading Screenshot 2025-11-07 172731.png…]()
