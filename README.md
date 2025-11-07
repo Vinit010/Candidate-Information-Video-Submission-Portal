@@ -44,7 +44,7 @@ npm install
 3️⃣ Configure Environment Variables
 Create a .env file inside the backend folder and add:
 
-ini
+in
 Copy code
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -55,10 +55,8 @@ Copy code
 cd backend
 npm start
 Start frontend:
-bash<img width="1876" height="853" alt="Screenshot 2025-11-07 172731" src="https://github.com/user-attachments/assets/d0f974cc-a4ac-4f24-a6c6-5bbc3dc603b4" />
 
 Copy code
 cd ../candidate-portal
 npm start
 
-![Uploading Screenshot 2025-11-07 172731.png…]()
